@@ -1,0 +1,29 @@
+{
+  "name": "اتاقک",
+  "short_name": "ایونت",
+  "start_url": "/?source=pwa",
+  "scope": ".",
+  "display": "standalone",
+  "dir": "rtl",
+  "lang": "fa",
+  "background_color": "#64b5f6",
+  "theme_color": "#1e88e5",
+  "icons": [
+    {
+      "src": "https://www.otaghak.com/nextAssets/icon-192x192.png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://www.otaghak.com/nextAssets/icon-256x256.png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "https://www.otaghak.com//nextAssets/icon-384x384.png",
+      "sizes": "384x384"
+    },
+    {
+      "src": "https://www.otaghak.com//nextAssets/icon-512x512.png",
+      "sizes": "512x512"
+    }
+  ]
+}
