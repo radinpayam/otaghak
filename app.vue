@@ -1,12 +1,10 @@
 <template>
-  <div class="overflow-x-hidden">
+  <ClientOnly>
     <NuxtPage />
-  </div>
+  </ClientOnly>
 </template>
 <script setup>
 useHead({
-  link: [
-    { rel: "manifest", href: "/manifest.json" },
-  ],
+  link: [{ rel: "manifest", href: "/manifest.json" }],
 });
 </script>

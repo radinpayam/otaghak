@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "defu": "^6.1.4",
+    "json-server": "^1.0.0-alpha.23",
     "swiper": "^11.0.5"
   }
 }

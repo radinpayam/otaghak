@@ -10,6 +10,9 @@ export default {
   ],
   theme: {
     extend: {
+      screens: {
+      'mob': {'min': '0px', 'max': '640px'},
+      },
       fontFamily: {
         "iran-sans": "iran-sans"
       }

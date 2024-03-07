@@ -1,6 +1,9 @@
+const {
+    public: { apiBase },
+  } = useRuntimeConfig();
 export default defineEventHandler(async (event) => {
     try {
-        const data = await $fetch(`http://localhost:8000/features-otaghak`, {
+        const data = await $fetch(`${apiBase}/features-otaghak`, {
             method: "get",
         });
         return data

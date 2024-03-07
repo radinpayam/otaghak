@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 @layer base {
-    @font-face {
-      font-family: iran-sans;
-      src: url("~/assets/fonts/IranSans.woff2");
-    }
+  @font-face {
+    font-family: iran-sans;
+    src: url("~/assets/fonts/IranSans.woff2");
+  }
 }

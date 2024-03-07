@@ -1,36 +1,33 @@
 .swiper-slide {
-  display: block;
+  display: flex;
+  align-items: center;
   width: 100%;
   height: 50vh;
   object-fit: cover;
 }
 .swiper {
-  margin-left: auto;
-    margin-right: auto;
-    overflow: visible;
+  display: flex;
+  overflow: visible;
   width: 100%;
-  height: 80vh;
-  --swiper-navigation-color: #3B3B48;
-  --swiper-pagination-color: red;
+  height: 50vh;
+  --swiper-navigation-color: #3b3b48;
+  --swiper-navigation-width: 1px;
 }
-.append-buttons {
-  text-align: center;
-  margin-top: 20px;
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 1.4rem !important;
 }
-
-.append-buttons button {
-  display: inline-block;
-  cursor: pointer;
-  border: 1px solid green;
-  color: green;
-  text-decoration: none;
-  padding: 4px 10px;
-  border-radius: 4px;
-  margin: 0 10px;
-  font-size: 13px;
+.swiper-button-prev{
+  position: absolute !important;
+  top: 47% !important;
+  right: -2.5rem !important;
 }
-.swiper-button-prev:after,
-.swiper-button-next:after {
-  width: 10px;
+.swiper-button-next{
+  background-color: white;
+  height: 55vh !important;
+  width: 3vw !important;
+    position: absolute !important;
+    left: -2.5rem !important;
+    top: 0 !important;
+    cursor: pointer;
 }
-  

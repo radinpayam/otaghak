@@ -1,9 +1,9 @@
 const {
     public: { apiBase },
-  } = useRuntimeConfig();
+} = useRuntimeConfig();
 export default defineEventHandler(async (event) => {
     try {
-        const data = await $fetch(`${apiBase}/popular-cities`, {
+        const data = await $fetch(`${apiBase}/rooms`, {
             method: "get",
         });
         return data

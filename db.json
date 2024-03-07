@@ -1,0 +1,552 @@
+{
+  "boxs-quic-access": [
+    {
+      "id": "1",
+      "title": "کلبه جنگلی",
+      "src": "/icons/icon1.svg"
+    },
+    {
+      "id": "2",
+      "title": "استخر دار",
+      "src": "/icons/icon2.svg"
+    },
+    {
+      "id": "3",
+      "title": "ویلای شمال",
+      "src": "/icons/icon3.svg"
+    },
+    {
+      "id": "4",
+      "title": "ساحل جنوب",
+      "src": "/icons/icon4.svg"
+    },
+    {
+      "id": "5",
+      "title": "لوکس",
+      "src": "/icons/icon5.svg"
+    },
+    {
+      "id": "6",
+      "title": "مناسب جشن",
+      "src": "/icons/icon6.svg"
+    },
+    {
+      "id": "7",
+      "title": "ترکیه",
+      "src": "/icons/icon7.svg"
+    },
+    {
+      "id": "8",
+      "title": "آنی",
+      "src": "/icons/icon8.svg"
+    }
+  ],
+  "banners": [
+    {
+      "id": "1",
+      "src": "https://cdn.otaghak.com/otg-images/Web/images/homepageimages/3/tehran-weekend.webp",
+      "alt": "دورهمی آخر هفته اطراف تهران"
+    },
+    {
+      "id": "2",
+      "src": "https://cdn.otaghak.com/otg-images/Web/images/homepageimages/3/turkey.webp",
+      "alt": "ترکیه وان و استانبول"
+    },
+    {
+      "id": "3",
+      "src": "https://cdn.otaghak.com/otg-images/Web/images/homepageimages/3/cottage.webp",
+      "alt": "کلبه و ویلا شمال ایران"
+    },
+    {
+      "id": "4",
+      "src": "https://cdn.otaghak.com/otg-images/Web/images/homepageimages/3/south.webp",
+      "alt": "اقامت گرم و رویایی جنوب ایران"
+    }
+  ],
+  "residences": [
+    {
+      "id": "1",
+      "title": "استخردار آبگرم آریا",
+      "caption": "مشهد تا ۶ مهمان ۱ خوابه",
+      "price": "1683000",
+      "star": "4.6",
+      "comment": "(35 نظر)",
+      "percent": "32%",
+      "discount": "2467000",
+      "src": "https://cdn.otaghak.com/otg-images-new/X500/faeb9215-9101-4253-888f-0c4bcbffb366.webp",
+      "alt": "استخردار آبگرم آریا",
+      "route": "/room/2387189"
+    },
+    {
+      "id": "2",
+      "title": "استخردار آبگرم آریا",
+      "caption": "مشهد تا ۶ مهمان ۱ خوابه",
+      "price": "1683000",
+      "star": "4.6",
+      "comment": "(35 نظر)",
+      "percent": "32%",
+      "discount": "2467000",
+      "src": "https://cdn.otaghak.com/otg-images-new/X500/b48601db-71b9-4ce1-abd7-2a9998d28d3f.webp",
+      "alt": "استخردار آبگرم آریا",
+      "route": "/room/2387189"
+    },
+    {
+      "id": "3",
+      "title": "استخردار آبگرم آریا",
+      "caption": "مشهد تا ۶ مهمان ۱ خوابه",
+      "price": "1683000",
+      "star": "4.6",
+      "comment": "(35 نظر)",
+      "percent": "32%",
+      "discount": "2467000",
+      "src": "https://cdn.otaghak.com/otg-images-new/X500/b48601db-71b9-4ce1-abd7-2a9998d28d3f.webp",
+      "alt": "استخردار آبگرم آریا",
+      "route": "/room/2387189"
+    },
+    {
+      "id": "4",
+      "title": "استخردار آبگرم آریا",
+      "caption": "مشهد تا ۶ مهمان ۱ خوابه",
+      "price": "1683000",
+      "star": "4.6",
+      "comment": "(35 نظر)",
+      "percent": "32%",
+      "discount": "2467000",
+      "src": "https://cdn.otaghak.com/otg-images-new/X500/d1c45c9a-c77a-4a6f-a466-0a254733dc7c.webp",
+      "alt": "استخردار آبگرم آریا",
+      "route": "/room/2387189"
+    },
+    {
+      "id": "5",
+      "title": "استخردار آبگرم آریا",
+      "caption": "مشهد تا ۶ مهمان ۱ خوابه",
+      "price": "1683000",
+      "star": "4.6",
+      "comment": "(35 نظر)",
+      "percent": "32%",
+      "discount": "2467000",
+      "src": "https://cdn.otaghak.com/otg-images-new/X500/b48601db-71b9-4ce1-abd7-2a9998d28d3f.webp",
+      "alt": "استخردار آبگرم آریا",
+      "route": "/room/2387189"
+    },
+    {
+      "id": "6",
+      "title": "استخردار آبگرم آریا",
+      "caption": "مشهد تا ۶ مهمان ۱ خوابه",
+      "price": "1683000",
+      "star": "4.6",
+      "comment": "(35 نظر)",
+      "percent": "32%",
+      "discount": "2467000",
+      "src": "https://cdn.otaghak.com/otg-images-new/X500/b48601db-71b9-4ce1-abd7-2a9998d28d3f.webp",
+      "alt": "استخردار آبگرم آریا",
+      "route": "/room/2387189"
+    },
+    {
+      "id": "7",
+      "title": "استخردار آبگرم آریا",
+      "caption": "مشهد تا ۶ مهمان ۱ خوابه",
+      "price": "1683000",
+      "star": "4.6",
+      "comment": "(35 نظر)",
+      "percent": "32%",
+      "discount": "2467000",
+      "src": "https://cdn.otaghak.com/otg-images-new/X500/b48601db-71b9-4ce1-abd7-2a9998d28d3f.webp",
+      "alt": "استخردار آبگرم آریا",
+      "route": "/room/2387189"
+    },
+    {
+      "id": "8",
+      "title": "استخردار آبگرم آریا",
+      "caption": "مشهد تا ۶ مهمان ۱ خوابه",
+      "price": "1683000",
+      "star": "4.6",
+      "comment": "(35 نظر)",
+      "percent": "32%",
+      "discount": "2467000",
+      "src": "https://cdn.otaghak.com/otg-images-new/X500/b48601db-71b9-4ce1-abd7-2a9998d28d3f.webp",
+      "alt": "استخردار آبگرم آریا",
+      "route": "/room/2387189"
+    },
+    {
+      "id": "9",
+      "title": "استخردار آبگرم آریا",
+      "caption": "مشهد تا ۶ مهمان ۱ خوابه",
+      "price": "1683000",
+      "star": "4.6",
+      "comment": "(35 نظر)",
+      "percent": "32%",
+      "discount": "2467000",
+      "src": "https://cdn.otaghak.com/otg-images-new/X500/b48601db-71b9-4ce1-abd7-2a9998d28d3f.webp",
+      "alt": "استخردار آبگرم آریا",
+      "route": "/room/2387189"
+    }
+  ],
+  "popular-cities": [
+    {
+      "id": "1",
+      "city": "تهران",
+      "residence": "770",
+      "src": "https://cdn.otaghak.com/otg-images/Web/images/homepageimages/1/tehran.jpg",
+      "alt": "شهر تهران"
+    },
+    {
+      "id": "2",
+      "city": "استانبول",
+      "residence": "80",
+      "src": "https://cdn.otaghak.com/otg-images/Web/images/homepageimages/1/istanbul.jpg",
+      "alt": "شهر استانبول"
+    },
+    {
+      "id": "3",
+      "city": "ماسال",
+      "residence": "676",
+      "src": "https://cdn.otaghak.com/otg-images/Web/images/homepageimages/1/masal.jpg",
+      "alt": "شهر ماسال"
+    },
+    {
+      "id": "4",
+      "city": "اصفهان",
+      "residence": "465",
+      "src": "https://cdn.otaghak.com/otg-images/Web/images/homepageimages/1/isfahan.jpg",
+      "alt": "شهر اصفهان"
+    },
+    {
+      "id": "5",
+      "city": "کردان",
+      "residence": "668",
+      "src": "https://cdn.otaghak.com/otg-images/Web/images/homepageimages/1/kordan.jpg",
+      "alt": "شهر کردان"
+    },
+    {
+      "id": "6",
+      "city": "کیش",
+      "residence": "192",
+      "src": "https://cdn.otaghak.com/otg-images/Web/images/homepageimages/1/kish.jpg",
+      "alt": "شهر کیش"
+    },
+    {
+      "id": "7",
+      "city": "شیراز",
+      "residence": "475",
+      "src": "https://cdn.otaghak.com/otg-images/Web/images/homepageimages/1/shiraz.jpg",
+      "alt": "شهر شیراز"
+    },
+    {
+      "id": "8",
+      "city": "رامسر",
+      "residence": "1000",
+      "src": "https://cdn.otaghak.com/otg-images/Web/images/homepageimages/1/ramsar.jpg",
+      "alt": "شهر رامسر"
+    }
+  ],
+  "search-popular-cities": [
+    {
+      "city": "رامسر",
+      "state": "استان مازندران",
+      "residence": "727 اقامتگاه",
+      "src": "https://core.otaghak.com/Content/Images/Cities/201.jpg"
+    },
+    {
+      "city": "ماسال",
+      "state": "استان گیلان",
+      "residence": "648 اقامتگاه",
+      "src": "https://core.otaghak.com/Content/Images/Cities/272.jpg"
+    },
+    {
+      "city": "تهران",
+      "state": "استان تهران",
+      "residence": "948 اقامتگاه",
+      "src": "https://core.otaghak.com/Content/Images/Cities/282.jpg"
+    },
+    {
+      "city": "کردان",
+      "state": "استان البرز",
+      "residence": "160 اقامتگاه",
+      "src": "https://core.otaghak.com/Content/Images/Cities/10322.jpg"
+    },
+    {
+      "city": "محمود آباد",
+      "state": "استان مازندران",
+      "residence": "221 اقامتگاه",
+      "src": "https://core.otaghak.com/Content/Images/Cities/217.jpg"
+    },
+    {
+      "city": "انزلی",
+      "state": "استان گیلان",
+      "residence": "345 اقامتگاه",
+      "src": "https://core.otaghak.com/Content/Images/Cities/264.jpg"
+    },
+    {
+      "city": "چالوس",
+      "state": "استان مازندران",
+      "residence": "234 اقامتگاه",
+      "src": "https://core.otaghak.com/Content/Images/Cities/207.jpg"
+    },
+    {
+      "city": "شیرگاه",
+      "state": "استان مازندران",
+      "residence": "211 اقامتگاه",
+      "src": "https://core.otaghak.com/Content/Images/Cities/10317.jpg"
+    }
+  ],
+  "features-otaghak": [
+    {
+      "id": "1",
+      "title": "اعتبارسنجی میزبان و مهمان",
+      "description": "بررسی اطلاعات میزبان ها و مهمان ها یکی از مهمترین اقدامات اتاقک است.",
+      "src": "https://www.otaghak.com/_next/image/?url=https%3A%2F%2Fcdn.otaghak.com%2Fotg-images%2FWeb%2Fimages%2Fhomepageimages%2F1%2Fverified.png&w=48&q=75"
+    },
+    {
+      "id": "2",
+      "title": "ضمانت بازگشت هزینه",
+      "description": "در صورت لغو رزرو، اتاقک بازگشت هزینه را با توجه به قوانین لغو تضمین می‌کند.",
+      "src": "https://www.otaghak.com/_next/image/?url=https%3A%2F%2Fcdn.otaghak.com%2Fotg-images%2FWeb%2Fimages%2Fhomepageimages%2F1%2Freturn.png&w=48&q=75"
+    },
+    {
+      "id": "3",
+      "title": "پشتیبانی ۲۴ ساعته",
+      "description": "تیــم اتاقک، به صورت شبــانه‌روزی و در ایــام تعطیـل آماده پاسخگویی به شما است.",
+      "src": "https://www.otaghak.com/_next/image/?url=https%3A%2F%2Fcdn.otaghak.com%2Fotg-images%2FWeb%2Fimages%2Fhomepageimages%2F1%2Fsupport.png&w=48&q=75"
+    },
+    {
+      "id": "4",
+      "title": "صحت اطلاعات اقامتگاه",
+      "description": "واحدهای اقامتی در اتاقک، از نظر استانداردهای میزبانی و امکانات رفاهی بررسی می‌شوند.",
+      "src": "https://www.otaghak.com/_next/image/?url=https%3A%2F%2Fcdn.otaghak.com%2Fotg-images%2FWeb%2Fimages%2Fhomepageimages%2F1%2FroomCorrect.jpg&w=48&q=75"
+    }
+  ],
+  "journals": [
+    {
+      "id": "1",
+      "title": "راه های سفر زمینی به کیش | شروع سفری پرماجرا و هیجان‌انگیز به جزیره مرجانی",
+      "description": "کیش جزیره‌ای زیبا در میان آب‌های نیلگون خلیج‌فارس است که به دلیل تفریحات هیجان‌انگیز و مراکز خرید بی‌نظیرش موفق شده است تا دل خود را در میان",
+      "writer": "مائده سمیع‌زاده",
+      "date": "10 آبان 1402",
+      "src": "https://www.otaghak.com/blog/wp-content/uploads/2023/10/%D8%B3%D9%81%D8%B1-%D8%B2%D9%85%DB%8C%D9%86%DB%8C-%D8%A8%D9%87-%DA%A9%DB%8C%D8%B4-%D9%85%D8%AC%D9%84%D9%87-%D8%A7%D8%AA%D8%A7%D9%82%DA%A9.jpg"
+    },
+    {
+      "id": "2",
+      "title": "جاهای دیدنی رامسر ✔💕| معرفی کامل مکان های دیدنی رامسر از جواهرده تا جنگل دالخانی",
+      "description": "وقتی یک کتاب خوب می‌خوانیم یا یک فیلم خوب می‌بینیم، دوست داریم در مورد آن با بقیه صحبت کنیم. هرچند بار هم آن فیلم یا کتاب را دوباره ببینیم",
+      "writer": "فاطمه شریفی",
+      "date": "4 شهریور 1402",
+      "src": "https://www.otaghak.com/blog/wp-content/uploads/2018/11/%D9%85%DA%A9%D8%A7%D9%86-%DA%AF%D8%B1%D8%AF%D8%B4%DA%AF%D8%B1%DB%8C-%D8%AA%D9%88%D8%B1%DB%8C%D8%B3%D8%AA%DB%8C-%D8%AA%D9%81%D8%B1%DB%8C%D8%AD%DB%8C-%D8%B1%D8%A7%D9%85%D8%B3%D8%B1_%D8%A7%D8%AA%D8%A7%D9%82%DA%A9-7.jpg"
+    },
+    {
+      "id": "3",
+      "title": "جاهای دیدنی تهران | بیش از ۱۲۰ جاذبه گردشگری با عکس و آدرس",
+      "description": "تهران مثل یک تابلوی نقاشی است که درخشش نارنجی غروب خورشید روی کوه‌های شمال شهر، خیابان‌های باریک برخی از مناطق محلی در جنوب و شمال شهر،",
+      "writer": "نازنین زارع",
+      "date": "16 فروردین 1402",
+      "src": "https://www.otaghak.com/blog/wp-content/uploads/2021/08/attractions-of-tehran0-780x470.jpg"
+    },
+    {
+      "id": "4",
+      "title": "تعطیلات زمستان ☃️شمال کجا بریم؟ | معرفی ۱۵ جای دیدنی در شمال برای زمستان + نکاتی",
+      "description": "برای سفر به مناطق شگفت‌انگیز شمال لازم نیست منتظر فصل‌های گرم سال بمانید، چرا که شمال کشور در هر فصلی از سال شبیه به یک تابلوی نقاشی",
+      "writer": "گلناز قمیان",
+      "date": "3 دی 1402",
+      "src": "https://www.otaghak.com/blog/wp-content/uploads/2023/01/psd_ghaleb_ax-1-23-4.jpg"
+    }
+  ],
+  "links-footer": {
+    "usefulLinks": [
+      {
+        "title": "تماس با ما"
+      },
+      {
+        "title": "وبلاگ اتاقک"
+      },
+      {
+        "title": "میزبان شوید"
+      },
+      {
+        "title": "درباره تیم اتاقک"
+      },
+      {
+        "title": "سوالات متداول"
+      },
+      {
+        "title": "قوانین و مقررات رزرو"
+      },
+      {
+        "title": "قوانین و راهنمای میزبان"
+      },
+      {
+        "title": "خط مشی کیفیت اتاقک"
+      }
+    ],
+    "popularDestinations": [
+      {
+        "title": "اجاره ویلا و سوئیت"
+      },
+      {
+        "title": "اجاره ویلا اطراف تهران",
+        "route": "https://www.otaghak.com/landing/weekend-tehran/"
+      },
+      {
+        "title": "اجاره ویلا سهیلیه",
+        "route": ""
+      },
+      {
+        "title": "اجاره ویلا در رامسر",
+        "route": ""
+      },
+      {
+        "title": "اجاره ویلا لب دریا",
+        "route": ""
+      },
+      {
+        "title": "اجاره ویلا برای مهمانی",
+        "route": ""
+      },
+      {
+        "title": "اجاره هتل آپارتمان مشهد",
+        "route": ""
+      },
+      {
+        "title": "اجاره سوئیت کیش",
+        "route": ""
+      },
+      {
+        "title": "اجاره سوئیت شیراز",
+        "route": ""
+      },
+      {
+        "title": "اجاره سوئیت یزد",
+        "route": ""
+      },
+      {
+        "title": "اجاره روزانه خانه تهران",
+        "route": ""
+      },
+      {
+        "title": "اجاره ویلا کردان",
+        "route": ""
+      },
+      {
+        "title": "اجاره ویلا شمال",
+        "route": ""
+      },
+      {
+        "title": "اجاره کلبه چوبی",
+        "route": ""
+      },
+      {
+        "title": "اجاره ویلا استخر دار",
+        "route": ""
+      },
+      {
+        "title": "اجاره ویلا ماسال",
+        "route": ""
+      },
+      {
+        "title": "اجاره سوئیت قم",
+        "route": ""
+      },
+      {
+        "title": "اجاره ویلا چالوس",
+        "route": ""
+      },
+      {
+        "title": "اجاره سوئیت اصفهان",
+        "route": ""
+      },
+      {
+        "title": "اجاره ویلا انزلی",
+        "route": ""
+      }
+    ]
+  },
+  "rooms": [
+    {
+      "id": "2387189",
+      "images": [
+        "https://cdn.otaghak.com/otg-images-new/Large/b48601db-71b9-4ce1-abd7-2a9998d28d3f.webp",
+        "https://cdn.otaghak.com/otg-images-new/X500/227b7b8d-5e71-4519-a666-d1fb3886ee0c.webp",
+        "https://cdn.otaghak.com/otg-images-new/X500/d5304e10-0848-4147-8741-7a9f12e59954.webp",
+        "https://cdn.otaghak.com/otg-images-new/X500/9d41bf33-2658-4a1c-a606-f077e01dabef.webp",
+        "https://cdn.otaghak.com/otg-images-new/X500/2220b4cc-49a5-4d65-bf7d-287fc5eb6b7c.webp"
+      ],
+      "managerInfo": {
+        "fullname": "علیرضا ترحمی",
+        "info": "بیشتر از 3 سال میزبان اتاقک",
+        "profile": "https://www.otaghak.com/_next/image/?url=https%3A%2F%2Fcore.otaghak.com%2Fapi%2Fv1%2FMedia%2Fimages%2F2160431&w=96&q=75",
+        "star": "4.8",
+        "comments": "32"
+      },
+      "aboutResidence": [
+        {
+          "title": "دربست",
+          "src": "https://cdn.otaghak.com/otg-images/Web/Icon/ic_renttype.svg"
+        },
+        {
+          "title": "اطلاعات اصلی اقامتگاه",
+          "description": "۲۰۰ متر, ۳ اتاق, همکف, دوبلکس",
+          "src": "https://cdn.otaghak.com/otg-images/Web/Icon/ic_sweet.svg"
+        },
+        {
+          "title": "ظرفیت اقامتگاه",
+          "description": "۶ نفر, ۴ نفر اضافه",
+          "src": "https://cdn.otaghak.com/otg-images/Web/Icon/ic_guest.svg"
+        },
+        {
+          "title": "سرویس خواب",
+          "description": "6 پتو, 6 سرویس خواب کامل, 3 تخت دو نفره",
+          "src": "https://cdn.otaghak.com/otg-images/Web/Icon/ic_twopersonbed.svg"
+        },
+        {
+          "title": "سرویس بهداشتی و حمام",
+          "description": "1 حمام عادی, 1 دوش در سرویس, 1 سرویس ایرانی, 1 سرویس فرنگی",
+          "src": "https://cdn.otaghak.com/otg-images/Web/Icon/outdoorforeignbathroom.svg"
+        },
+        {
+          "title": "بافت و چشم انداز",
+          "description": "روستایی, جنگلی",
+          "src": "https://cdn.otaghak.com/otg-images/Web/Icon/ic_contextandview.svg"
+        }
+      ],
+      "facilitiesResidence": [
+        {
+          "text": "گرمایش از کف",
+          "src": "https://cdn.otaghak.com/otg-images/Web/Icon/ic_floorheater.svg"
+        },
+        {
+          "text": "گیرنده دیجیتال",
+          "src": "https://cdn.otaghak.com/otg-images/Web/Icon/ic_reciever.svg"
+        },
+        {
+          "text": "دوربین مداربسته",
+          "src": "https://cdn.otaghak.com/otg-images/Web/Icon/ic_cctv.svg"
+        },
+        {
+          "text": "جکوزی",
+          "src": "https://cdn.otaghak.com/otg-images/Web/Icon/ic_jaccusi_icon.svg"
+        },
+        {
+          "text": "پنکه",
+          "src": "https://cdn.otaghak.com/otg-images/Web/Icon/ic_fan.svg"
+        },
+        {
+          "text": "سیستم صوتی",
+          "src": "https://cdn.otaghak.com/otg-images/Web/Icon/ic_player.svg"
+        },
+        {
+          "text": "مبلمان",
+          "src": "https://cdn.otaghak.com/otg-images/Web/Icon/ic_canape.svg"
+        },
+        {
+          "text": "پینگ پونگ",
+          "src": "https://cdn.otaghak.com/otg-images/Web/Icon/pingpong.svg"
+        }
+      ],
+      "rulesResidence": [
+        {
+          "text": "شرایط ورود حیوان خانگی",
+          "src": ""
+        }
+      ]
+    }
+  ]
+}

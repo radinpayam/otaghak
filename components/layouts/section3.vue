@@ -1,10 +1,17 @@
 <template>
-  <div class="px-10">
+  <div class="flex flex-col gap-3 px-10">
     <h1 class="text-xl font-semibold text-[#48484E]">محبوب ترین شهر ها</h1>
-    <div class="grid grid-cols-4">
-      <div class="flex col-span-1" v-for="popular in populars">
-        <PartsPopularCities :popular="popular"/>
-      </div>
+    <div class="flex gap-2">
+      <PartsPopularCities
+        v-for="popular in populars.slice(0, 4)"
+        :popular="popular"
+      />
+    </div>
+    <div class="flex gap-2">
+      <PartsPopularCities
+        v-for="popular in populars.slice(4, 8)"
+        :popular="popular"
+      />
     </div>
   </div>
 </template>

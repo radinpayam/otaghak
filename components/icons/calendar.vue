@@ -1,0 +1,44 @@
+<template>
+  <svg
+    class=""
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <g id="Layer_1-2" clip-path="url(#clip0_890_54439)">
+      <rect width="24" height="24" style="fill: none"></rect>
+      <g>
+        <path
+          stroke-width="1"
+          stroke="#64666F"
+          fill="none"
+          class="cls-1"
+          d="M18.22,5.38H5.78c-.98,0-1.78,.8-1.78,1.78v10.67c0,.98,.8,1.78,1.78,1.78h12.44c.98,0,1.78-.8,1.78-1.78V7.16c0-.98-.8-1.78-1.78-1.78Z"
+        ></path>
+        <path
+          stroke-width="1"
+          stroke="#64666F"
+          fill="none"
+          class="cls-1"
+          d="M7.56,3.6v3.56"
+        ></path>
+        <path
+          stroke-width="1"
+          stroke="#64666F"
+          fill="none"
+          class="cls-1"
+          d="M16.44,3.6v3.56"
+        ></path>
+        <path
+          stroke-width="1"
+          stroke="#64666F"
+          fill="none"
+          class="cls-1"
+          d="M4,10.71H20"
+        ></path>
+      </g>
+    </g>
+  </svg>
+</template>

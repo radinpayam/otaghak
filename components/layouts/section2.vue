@@ -1,16 +1,33 @@
 <template>
-  <p class="text-2xl">تخفیف ویژه</p>
-  <p class="text-base">اقامتگاه‌های دارای تخفیف ویژه 🤩</p>
-  <div class="flex">
+  <div class="flex px-10 flex-col gap-3">
+    <div class="flex justify-between">
+      <p class="text-2xl">تخفیف ویژه</p>
+      <NuxtLink to="/"><span class="text-[#446BFF]">نمایش همه</span><IconsFlashLink /></NuxtLink>
+    </div>
+
+    <p class="text-base">اقامتگاه‌های دارای تخفیف ویژه 🤩</p>
     <swiper
-      :slidesPerView="3.8"
       :navigation="true"
-      :spaceBetween="30"
+      :breakpoints="{
+        0: {
+          slidesPerView: 1.3,
+        },
+        600: { slidesPerView: 3 },
+        900: { slidesPerView: 3.6 },
+      }"
+      :spaceBetween="10"
       :modules="modules"
       class="flex mySwiper mx-[40vw]"
     >
-      <swiper-slide v-for="product in products" class="w-full">
-        <PartsProducts :product="product" class="w-full h-[50vh] object-cover object-center" />
+      <swiper-slide
+        v-for="residence in residences"
+        class="w-full"
+        :key="residence.id"
+      >
+        <PartsResidences
+          :residence="residence"
+          class="w-full h-[50vh] object-cover object-center"
+        />
       </swiper-slide>
     </swiper>
   </div>
@@ -20,11 +37,11 @@
 </style>
 <script setup>
 const {
-  data: products,
+  data: residences,
   pending,
   error,
   refresh,
-} = await useFetch("/api/products");
+} = await useFetch("/api/residences");
 import { Swiper, SwiperSlide } from "swiper/vue";
 
 // Import Swiper styles
@@ -33,6 +50,6 @@ import "swiper/css";
 import "swiper/css/navigation";
 
 // import required modules
-import {Navigation } from "swiper/modules";
+import { Navigation } from "swiper/modules";
 const modules = [Navigation];
 </script>

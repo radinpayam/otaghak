@@ -1,6 +1,9 @@
+const {
+  public: { apiBase },
+} = useRuntimeConfig();
 export default defineEventHandler(async (event) => {
     try {
-        const data = await $fetch(`http://localhost:8000/boxs-quic-access`, {
+        const data = await $fetch(`${apiBase}/boxs-quic-access`, {
           method: "get",
         });
         return data
