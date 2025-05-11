@@ -1,8 +1,16 @@
 <template>
   <div
-    class="flex flex-col text-[#73707C] relative mob:h-[50vh] lg:h-full pb-2 gap-5 border border-[#D6D6DE] rounded-xl"
+    class="flex flex-col text-[#73707C] relative mob:h-[50vh] lg:h-full mob:h-full pb-2 gap-5 border border-[#D6D6DE] rounded-xl"
   >
-    <img :src="journal.src" alt="" class="rounded-xl lg:w-[80vw] lg:h-[30vh]" />
+    <!-- <img :src="journal.src" alt="" class="" loading="lazy"/> -->
+    <NuxtImg
+  :src="journal.src"
+  :alt="journal.title"
+  loading="lazy"
+  quality="20"
+  format="webp"
+  class="rounded-xl lg:w-full lg:h-full"
+/>
     <h1 class="font-semibold text-base text-[#242428] px-2">
       {{ journal.title }}
     </h1>

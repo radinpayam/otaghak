@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-col gap-3 sticky top-36 p-8 text-[#8D8D96] w-[32vw] h-[68vh] rounded-2xl shadow-[0_5px_5px_5px_rgba(245,245,245,1)]"
+    class="flex flex-col mob:hidden gap-3 sticky top-32 p-8 text-[#8D8D96] w-[32vw] h-[68vh] rounded-2xl shadow-[0_5px_5px_5px_rgba(245,245,245,1)]"
   >
     <p class="flex gap-2">
       هر شب از <span class="text-[#48484E] text-lg font-bold">3,535,000</span>تومان

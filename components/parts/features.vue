@@ -3,8 +3,15 @@
     class="flex flex-col gap-4 rounded-2xl border w-full h-full p-4 border-[#D6D6DE]"
   >
     <div class="flex gap-4">
-      <img :src="feature.src" alt="" class="w-12" />
-
+      <NuxtImg
+        :src="feature.src"
+        :alt="feature.title"
+        loading="lazy"
+        width="48"
+        height="48"
+        format="webp"
+        class="w-12"
+      />
       <h1 class="text-xl text-[#48484E] font-semibold">{{ feature.title }}</h1>
     </div>
     <p>{{ feature.description }}</p>

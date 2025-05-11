@@ -12,6 +12,7 @@
     "api": "npx json-server db.json --port 8000"
   },
   "devDependencies": {
+    "@nuxt/image": "^1.8.1",
     "@nuxtjs/pwa": "^3.3.5",
     "autoprefixer": "^10.4.17",
     "nuxt": "^3.10.1",
@@ -23,6 +24,7 @@
   "dependencies": {
     "defu": "^6.1.4",
     "json-server": "^1.0.0-alpha.23",
+    "nuxt-lazy-hydrate": "^1.0.0",
     "swiper": "^11.0.5"
   }
 }

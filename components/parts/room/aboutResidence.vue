@@ -9,7 +9,7 @@
           >
         </div>
         <div class="flex gap-2" v-for="part in room.aboutResidence">
-          <img :src="part.src" alt="" class="w-8">
+          <img :src="part.src" alt="" class="w-8" loading="lazy">
         <div class="flex flex-col">
           <h3 class="font-semibold text-lg">{{ part.title }}</h3>
           <p>{{ part.description }}</p>

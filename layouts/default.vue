@@ -1,14 +1,38 @@
 <template>
-  <div class="flex mob:w-full flex-col gap-10 font-iran-sans text-[#48484E]">
-    <LayoutsHeader />
-    <LayoutsSection1 />
-    <LayoutsSection2 />
-    <LayoutsSection3 />
-    <LayoutsSection4 />
-    <LayoutsSection5 />
-    <LayoutsSection6 />
-    <LayoutsSection7 />
-    <LayoutsSection8 />
-    <LayoutsFooter />
+  <div class="flex mob:w-full flex-col gap-10 mob:px-[3%] font-iran-sans text-[#48484E]">
+    <ClientOnly>
+      <NuxtLazyHydrate when-visible>
+      <LayoutsHeader />
+      </NuxtLazyHydrate>
+    </ClientOnly>
+    <NuxtLazyHydrate when-visible>
+      <LazyLayoutsSection1 />
+    </NuxtLazyHydrate>
+    <NuxtLazyHydrate when-visible>
+      <LazyLayoutsSection2 />
+    </NuxtLazyHydrate>
+    <NuxtLazyHydrate when-visible>
+      <LazyLayoutsSection3 />
+    </NuxtLazyHydrate>
+    <NuxtLazyHydrate when-visible>
+      <LazyLayoutsSection4 />
+    </NuxtLazyHydrate>
+    <NuxtLazyHydrate when-visible>
+      <LazyLayoutsSection5 />
+    </NuxtLazyHydrate>
+    <NuxtLazyHydrate when-visible>
+      <LazyLayoutsSection6 />
+    </NuxtLazyHydrate>
+    <NuxtLazyHydrate when-visible>
+      <LazyLayoutsSection7 />
+    </NuxtLazyHydrate>
+    <NuxtLazyHydrate when-visible>
+      <LazyLayoutsSection8 />
+    </NuxtLazyHydrate>
+    <NuxtLazyHydrate when-visible>
+      <LazyLayoutsFooter />
+    </NuxtLazyHydrate>
   </div>
 </template>
+<script setup lang="ts">
+</script>

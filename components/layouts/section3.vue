@@ -1,13 +1,13 @@
 <template>
-  <div class="flex flex-col gap-3 px-10">
+  <div class="flex flex-col gap-3 lg:px-10">
     <h1 class="text-xl font-semibold text-[#48484E]">محبوب ترین شهر ها</h1>
-    <div class="flex gap-2">
+    <div class="lg:flex mob:grid mob:grid-cols-2 gap-2 justify-center">
       <PartsPopularCities
         v-for="popular in populars.slice(0, 4)"
         :popular="popular"
       />
     </div>
-    <div class="flex gap-2">
+    <div class="lg:flex mob:grid mob:grid-cols-2 gap-2 justify-center">
       <PartsPopularCities
         v-for="popular in populars.slice(4, 8)"
         :popular="popular"

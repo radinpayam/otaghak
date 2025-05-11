@@ -1,10 +1,16 @@
 <template class="">
   <body>
     <div
-      class="flex relative flex-col h-[90vh] content-between bg-[url('/images/banner2.jpg')]"
-    > 
+      class="flex relative mob:hidden flex-col h-[90vh] content-between"
+    >
+    <NuxtImg
+      src="https://www.otaghak.com/_next/image/?url=https%3A%2F%2Fcdn.otaghak.com%2Fotg-images-new%2FLarge%2Fxtow4h2q.0kk_316.jpg&w=3840&q=18"
+      alt="اجاره ویلا و سوئیت در سراسر ایران"
+      loading="eager"
+      class="absolute inset-0 w-full h-full object-cover"
+      />
       <div class="flex px-20 justify-between mt-5">
-        <img src="~/assets/logo.svg" alt="" />
+        <img src="~/assets/logo.svg" alt="Logo" width="100" height="40" loading="eager"/>
         <ul class="flex gap-10 font-[600] mob:hidden lg:flex">
           <li>
             <nuxtLink to="/" class="flex text-[#F03E58] gap-1"
@@ -37,14 +43,15 @@
           </h1>
         </div>
         <div
-          class="flex rounded-lg z-10 p-3 mob:hidden lg:flex gap-16 absolute bottom-32 bg-white 4/6 items-center"
+          class="flex rounded-lg z-10 p-3 mob:hidden lg:flex gap-16 absolute bottom-32 bg-white h-auto items-center"
         >
           <div
-            @click="showBoxSearchResidence()"
+            @click="showDivSearchResidence = true"
             class="cursor-pointer"
             id="btnSearchResidence"
           >
             جستجوی شهر، استان یا نام اقامتگاه
+            <p class="font-bold text-lg" >{{ nameResidence }}</p>
           </div>
 
           <div>تاریخ ورود</div>
@@ -55,7 +62,7 @@
             class="cursor-pointer"
           >
             تعداد نفرات
-            <h1 class="font-bold">{{ numberPeople }} نفر</h1>
+            <h1 class="font-bold" v-show="numberPeople != 0" >{{ numberPeople }} نفر</h1>
           </div>
           <button class="bg-[#F03E58] p-[13px] rounded-lg">
             <IconsSearch />
@@ -63,22 +70,25 @@
         </div>
         <div
           id="boxNumberPeople"
-          class="flex flex-col absolute hidden bottom-2 left-[22vw] py-2 px-4 gap-5 bg-white w-[18vw] h-[18vh] rounded-lg"
+          v-show="boxNumberPeopleOpen"
+          class="flex flex-col absolute bottom-2 left-[22vw] py-2 px-4 gap-5 bg-white w-[18vw] h-[18vh] rounded-lg"
         >
           <p>تعداد افراد بالای ۳ سال</p>
           <div class="flex justify-between">
             <button
               @click="numberPeople2.positive()"
               class="border border-[#48484E] rounded-lg p-2 btn-number-people"
+              style="pointer-events: all"
             >
-              <IconsPositive />
+              <IconsPositive class="btn-number-people" />
             </button>
             <p class="text-lg">
               نفر <span> {{ numberPeople }}</span>
             </p>
             <button
               @click="numberPeople2.negative()"
-              class="border border-[#48484E] rounded-lg p-2 btn-number-people"
+              :disabled="numberPeople === 0"
+              class="border border-[#48484E] disabled:border-opacity-5 transition duration-300 ease-in-out rounded-lg p-2 btn-number-people z-20 pointer-events-auto"
             >
               <IconsNegative />
             </button>
@@ -86,20 +96,30 @@
         </div>
         <div
           id="selectDestination"
-          class="flex flex-col hidden top-[71vh] absolute bottom-2 left-[49vw] py-2 px-3 gap-5 bg-white w-[28vw] h-max rounded-lg"
+          v-if="showDivSearchResidence"
+          class="flex flex-col top-[71vh] absolute bottom-2 left-[49vw] py-2 px-3 gap-5 bg-white w-[28vw] h-max rounded-lg"
         >
           <h4 class="text-lg font-bold">محبوب ترین مقصد ها</h4>
           <div v-for="city in cities">
-            <PartsSearchPopularCities :city="city" />
+            <NuxtLazyHydrate when-visible>
+              <PartsSearchPopularCities
+              class="cursor-pointer"
+                :city="city"
+                @click="residences(city)"
+              />
+            </NuxtLazyHydrate>
           </div>
         </div>
       </div>
     </div>
   </body>
 </template>
-<script setup lang="ts">
+<script setup>
 const { data: cities } = await useFetch("/api/searchPopularCities");
 const numberPeople = ref(0);
+const showDivSearchResidence = ref(false);
+const nameResidence = ref("")
+const boxNumberPeopleOpen = ref(false)
 class numberPeople2 {
   static positive() {
     numberPeople.value++;
@@ -108,27 +128,24 @@ class numberPeople2 {
     numberPeople.value--;
   }
   static open() {
+    boxNumberPeopleOpen.value = true
     document.querySelector("#boxNumberPeople")?.classList.remove("hidden");
     document.querySelector("#boxNumberPeople")?.classList.add("flex");
   }
 }
-function showBoxSearchResidence() {
-  let boxSearchResidence = document.querySelector("#selectDestination");
-  boxSearchResidence?.classList.remove("hidden");
-  boxSearchResidence?.classList.add("flex");
+function residences(city){
+  showDivSearchResidence.value = false
+  nameResidence.value = city.city
+
 }
-document.body.addEventListener("click", (event) => {
-  let boxSearchResidence = document.querySelector("#selectDestination");
-  let btnSearchResidence = document.querySelector("#btnSearchResidence");
-  let btnNumberPeople = document.querySelector("#btnNumberPeople");
-  let boxNumberPeople = document.querySelector("#boxNumberPeople");
-  if (event.target !== btnSearchResidence) {
-    boxSearchResidence?.classList.remove("flex");
-    boxSearchResidence?.classList.add("hidden");
-  }
-    if (event.target !== btnNumberPeople && event.target !== boxNumberPeople) {
-      boxNumberPeople?.classList.remove("flex");
-      boxNumberPeople?.classList.add("hidden");
-    }
-  });
+// function showBoxSearchResidence() {
+//   showDivSearchResidence.value = true;
+// }
+// document.body.addEventListener("click", (event) => {
+//   let boxSearchResidence = document.querySelector("#selectDestination");
+//   let btnSearchResidence = document.querySelector("#btnSearchResidence");
+//   let btnNumberPeople = document.querySelector("#btnNumberPeople");
+//   let boxNumberPeople = document.querySelector("#boxNumberPeople");
+//   let btnsNumberPeople = document.querySelector(".btn-number-people");
+// });
 </script>

@@ -2,12 +2,15 @@
   <div class="flex flex-col gap-4">
     <div>
       <NuxtLink :to="residence.route">
-        <img
-          class="rounded-xl w-full lg:h-[38vh]"
-          :src="residence.src"
-          :alt="residence.alt"
-        />
-        <h1 class="pr-4 text-base font-semibold text-[#323235]">
+        <NuxtImg
+  :src="residence.src"
+  :alt="residence.title"
+  loading="lazy"
+  quality="1"
+  format="webp"
+  class="rounded-xl w-full mob:h-[36vh] lg:h-[36vh]"
+/>
+        <h1 class="pr-4 text-base mt-4 font-semibold text-[#323235]">
           {{ residence.title }}
         </h1>
       </NuxtLink>
@@ -27,7 +30,7 @@
         </li>
         <li class="flex gap-4 items-center">
           <span
-            class="text-center rounded text-white bg-[#F03E58] text-sm w-[2.8vw] px-1 py-[1px]"
+            class="text-center rounded text-white bg-[#F03E58] mob:w-full text-sm w-[2.8vw] px-1 py-[1px]"
             >{{ residence.percent }}</span
           ><span
             ><del class="decoration-[#f03e58]">{{

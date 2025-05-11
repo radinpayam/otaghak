@@ -2,32 +2,43 @@
   display: flex;
   align-items: center;
   width: 100%;
-  height: 50vh;
+  height: 50%;
   object-fit: cover;
 }
 .swiper {
   display: flex;
   overflow: visible;
   width: 100%;
-  height: 50vh;
+  height: 50%;
   --swiper-navigation-color: #3b3b48;
   --swiper-navigation-width: 1px;
+  --swiper-pagination-color: #ffffff; /* رنگ نقاط فعال */
+  --swiper-pagination-bullet-inactive-color: #fadee7; /* رنگ نقاط غیرفعال (مثل خاکستری روشن) */
+  --swiper-pagination-bullet-inactive-opacity: 0.5; /* شفافیت نقاط غیرفعال */
+  --swiper-pagination-bullet-size: 0.6em; /* اندازه نقاط */
+  --swiper-pagination-bullet-horizontal-gap: 4px; /* فاصله بین نقاط */
 }
 .swiper-button-next:after,
 .swiper-button-prev:after {
   font-size: 1.4rem !important;
 }
-.swiper-button-prev{
+.swiper-button-prev {
   position: absolute !important;
   top: 47% !important;
   right: -2.5rem !important;
 }
-.swiper-button-next{
+.swiper-button-next {
   background-color: white;
-  height: 55vh !important;
+  height: 58vh !important;
   width: 3vw !important;
-    position: absolute !important;
-    left: -2.5rem !important;
-    top: 0 !important;
-    cursor: pointer;
+  position: absolute !important;
+  left: -2.5rem !important;
+  top: 0 !important;
+  cursor: pointer;
+}
+@media (max-width: 600px) {
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none !important; /* مخفی کردن دکمه‌ها */
+  }
 }
