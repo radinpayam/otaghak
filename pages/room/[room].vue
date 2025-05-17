@@ -215,5 +215,7 @@ import { Navigation, Pagination } from "swiper/modules";
 const modules = [Navigation, Pagination];
 
 const route = useRoute()
-const { data: rooms } = await useFetch(`/api/rooms/${route.params.room}`);
+const { data: rooms } = await useFetch(`/api/rooms/${route.params.room}`, {
+  key: `room-${route.params.room}`,
+});
 </script>

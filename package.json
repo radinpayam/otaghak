@@ -23,7 +23,6 @@
   },
   "dependencies": {
     "defu": "^6.1.4",
-    "json-server": "^1.0.0-alpha.23",
     "nuxt-lazy-hydrate": "^1.0.0",
     "swiper": "^11.0.5"
   }
