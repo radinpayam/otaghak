@@ -1,7 +1,7 @@
 <template>
   <div class="flex mob:flex-col justify-between content-between gap-6 lg:p-10 mob:px-2 bg-[#F4F4F8] mob:gap-20">
     <div class="flex flex-col mob:gap-6 gap-3">
-      <img src="~/assets/logo.svg" class="w-[15vw] mob:w-[50%] mr-[25%]" alt="" width="112" height="44">
+      <img src="~/assets/logo.svg" class="w-[15vw] mob:w-[50%] mob:mt-5 mr-[25%]" alt="" width="112" height="44">
       <p class="mob:hidden">
         اتاقک سامانه هوشمند اجاره محل اقامت ویژه مسافران است و اکنون در بیش از
         310 شهر فعال است. هدف از ایجاد اتاقک ترویج سفرهای اقتصادی، مناسب برای

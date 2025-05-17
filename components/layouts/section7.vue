@@ -51,7 +51,7 @@
       </swiper>
     </div>
     <NuxtImg
-      src="https://www.otaghak.com/_next/image/?url=https%3A%2F%2Fs3.afranet.net%2Fotg-images%2FWeb%2Fimages%2Fhomepageimages%2F1%2FHost-banner-wide.jpg&w=2048&q=30"
+      src="https://www.otaghak.com/_next/image/?url=https%3A%2F%2Fs3.afranet.net%2Fotg-images%2FWeb%2Fimages%2Fhomepageimages%2F1%2FHost-banner-wide.jpg&w=2048&q=40"
       alt="دعوت میزبان"
       class="rounded-xl mt-10 mob:hidden w-full h-auto"
       loading="lazy"
@@ -59,7 +59,7 @@
       height="366"
     />
     <NuxtImg
-      src="https://www.otaghak.com/_next/image/?url=https%3A%2F%2Fcdn.otaghak.com%2Fotg-images-new%2FLarge%2Fh2tvb3y0.mij.jpg&w=750&q=30"
+      src="https://www.otaghak.com/_next/image/?url=https%3A%2F%2Fcdn.otaghak.com%2Fotg-images-new%2FLarge%2Fh2tvb3y0.mij.jpg&w=750&q=40"
       alt="دعوت میزبان"
       class="rounded-xl mt-10 lg:hidden w-full h-auto"
       loading="lazy"
