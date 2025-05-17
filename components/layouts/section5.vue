@@ -1,4 +1,5 @@
 <template>
+  <div>
   <div class="flex flex-col gap-2 lg:px-10">
     <div class="flex justify-between">
       <h1 class="text-xl font-semibold">پرایم</h1>
@@ -48,6 +49,7 @@
       </swiper-slide>
     </swiper>
   </div>
+</div>
 </template>
 <style scoped>
 @import "~/assets/css/swiperStyle.css";

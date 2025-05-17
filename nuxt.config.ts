@@ -12,7 +12,7 @@ export default defineNuxtConfig({
   },
   image: {
     domains: ['www.otaghak.com'],
-    quality: 30,
+    quality: 40,
     formats: ['webp'],
   },
   nitro: {

@@ -1,5 +1,5 @@
 <template>
-  <div class="flex mob:w-full flex-col gap-10 mob:px-[3%] font-iran-sans text-[#48484E]">
+  <div class="flex mob:w-full flex-col gap-10 mob:gap-[10vh] mob:px-[3%] font-iran-sans text-[#48484E]">
     <ClientOnly>
       <NuxtLazyHydrate when-visible>
       <LayoutsHeader />
@@ -30,7 +30,7 @@
       <LazyLayoutsSection8 />
     </NuxtLazyHydrate>
     <NuxtLazyHydrate when-visible>
-      <LazyLayoutsFooter />
+      <LazyLayoutsFooter class="-mx-[3%]"/>
     </NuxtLazyHydrate>
   </div>
 </template>

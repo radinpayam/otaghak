@@ -1,5 +1,5 @@
 <template>
-  <div class="flex mob:flex-col justify-between content-between gap-6 lg:p-10 mob:px-5 bg-[#F4F4F8] mob:gap-20">
+  <div class="flex mob:flex-col justify-between content-between gap-6 lg:p-10 mob:px-2 bg-[#F4F4F8] mob:gap-20">
     <div class="flex flex-col mob:gap-6 gap-3">
       <img src="~/assets/logo.svg" class="w-[15vw] mob:w-[50%] mr-[25%]" alt="" width="112" height="44">
       <p class="mob:hidden">
@@ -40,9 +40,9 @@
         </div>
       </div>
     </div>
-    <div class="flex flex-col ml-5 text-[#48484E] gap-2 mob:gap-7">
+    <div class="flex flex-col lg:ml-5 text-[#48484E] gap-2 mob:gap-7">
       <h1 class="text-xl text-center font-semibold">دریافت اتاقک</h1>
-      <div class="grid grid-cols-2 mob:w-full gap-x-10 gap-y-4">
+      <div class="grid grid-cols-2 mob:w-full mob:gap-3 gap-x-10 gap-y-4">
         <button class="boxs-get-otaghak">
           <span>دریافت از بازار</span><IconsBazar />
         </button>

@@ -59,7 +59,7 @@
       height="366"
     />
     <NuxtImg
-      src="https://www.otaghak.com/_next/image/?url=https%3A%2F%2Fcdn.otaghak.com%2Fotg-images-new%2FLarge%2Fh2tvb3y0.mij.jpg&w=750&q=15"
+      src="https://www.otaghak.com/_next/image/?url=https%3A%2F%2Fcdn.otaghak.com%2Fotg-images-new%2FLarge%2Fh2tvb3y0.mij.jpg&w=750&q=30"
       alt="دعوت میزبان"
       class="rounded-xl mt-10 lg:hidden w-full h-auto"
       loading="lazy"
